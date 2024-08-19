@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "repo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/data.dll": {}
+        }
+      },
+      "repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/repo.dll": {}
+        }
+      },
+      "services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "data": "1.0.0",
+          "repo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "data/1.0.0": {
+      "type": "project",
+      "path": "../data/data.csproj",
+      "msbuildProject": "../data/data.csproj"
+    },
+    "repo/1.0.0": {
+      "type": "project",
+      "path": "../repo/repo.csproj",
+      "msbuildProject": "../repo/repo.csproj"
+    },
+    "services/1.0.0": {
+      "type": "project",
+      "path": "../services/services.csproj",
+      "msbuildProject": "../services/services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "data >= 1.0.0",
+      "repo >= 1.0.0",
+      "services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/tope/.nuget/packages/": {}
@@ -31,7 +89,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/data/data.csproj": {
+              "projectPath": "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/data/data.csproj"
+            },
+            "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/repo.csproj": {
+              "projectPath": "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/repo.csproj"
+            },
+            "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/services/services.csproj": {
+              "projectPath": "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/services/services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

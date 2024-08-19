@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/repo.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "repo/1.0.0": {
+      "type": "project",
+      "path": "../repo/repo.csproj",
+      "msbuildProject": "../repo/repo.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "repo >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/tope/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/repo.csproj": {
+              "projectPath": "/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
