@@ -5,11 +5,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 // configure services here
 builder.Services.AddDbContext<PigeonContext>(opts => {
-    opts.UseNpgsql(builder.Configuration["DB:DEV"]);
+    opts.UseNpgsql(builder.Configuration["DB:Key"]);
 });
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.UseStaticFiles();
+
+app.UseAuthentication();
+app.UseAuthentication();
+
+app.MapDefaultControllerRoute();
 
 app.Run();
