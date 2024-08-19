@@ -1,0 +1,15 @@
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/bin/Debug/net8.0/repo.deps.json
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/bin/Debug/net8.0/repo.runtimeconfig.json
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/bin/Debug/net8.0/repo.dll
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/bin/Debug/net8.0/repo.pdb
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.csproj.AssemblyReference.cache
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.GeneratedMSBuildEditorConfig.editorconfig
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.AssemblyInfoInputs.cache
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.AssemblyInfo.cs
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.csproj.CoreCompileInputs.cache
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.sourcelink.json
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.dll
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/refint/repo.dll
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.pdb
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/repo.genruntimeconfig.cache
+/home/tope/Documents/Programming Files (v2)/Projects/Pigeon/src/repo/obj/Debug/net8.0/ref/repo.dll
