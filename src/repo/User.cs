@@ -13,6 +13,8 @@ public partial class User
 
     public DateTime DateCreated { get; set; }
 
+    public Guid? SupabaseUserId { get; set; }
+
     public virtual ICollection<DirectMessage> DirectMessageUserAs { get; set; } = new List<DirectMessage>();
 
     public virtual ICollection<DirectMessage> DirectMessageUserBs { get; set; } = new List<DirectMessage>();
